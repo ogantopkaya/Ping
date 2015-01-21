@@ -19,4 +19,6 @@
  */
 + (void)measureRTTWithHost:(NSString *)host numberOfPings:(NSInteger)numberOfPings completion:(void(^)(NSTimeInterval meanRTT))completion;
 
+
+// Test
 @end
